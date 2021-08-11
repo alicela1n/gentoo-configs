@@ -210,3 +210,9 @@ Sensors:   System Temperatures: cpu: 54.0 C mobo: N/A
            Fan Speeds (RPM): N/A 
 Info:      Processes: 317 Uptime: 2h 06m Memory: 7.49 GiB used: 4.99 GiB (66.6%) Shell: Zsh inxi: 3.1.06 
 ```
+
+/proc/cmdline
+```
+initrd=\23e9b4ede725b48fe6559b4d5fcaf390\5.10.52-x86_64\initrd rd.luks.uuid=3fb4681c-aa9e-489b-9ac9-64eeff8fe85b rootflags=subvol=@gentoo root=UUID=703d8553-eba1-4903-8e5e-93a63a5314a3 rootfstype=btrfs ro root_trim=yes i915.enable_gvt=1 kvm.ignore_msrs=1 intel_pstate=disable resume=UUID=703d8553-eba1-4903-8e5e-93a63a5314a3 resume_offset=22549760 snd_hda_intel.single_cmd=1 snd_hda_intel.probe_mask=1
+
+```
